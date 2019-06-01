@@ -1,0 +1,9 @@
+{# LEARN MORE https://www.django-rest-framework.org/topics/browsable-api/#}
+{#{% extends "rest_framework_test/base.html" %}#}
+{% load static %}
+{% block bootstrap_theme %}
+    <link rel="stylesheet" href="{% static "bootstrap.min.css" %}" type="text/css">
+    <link rel="stylesheet" href="{% static "sketchy.min.css" %}">
+{% endblock %}
+
+{% block bootstrap_navbar_variant %}{% endblock %}
